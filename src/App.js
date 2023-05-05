@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Messages from './components/Messages';
+import Input from './components/input';
 
 
 class App extends React.Component {
@@ -33,13 +34,26 @@ class App extends React.Component {
     }
   }
 
+  onSendMessage = (message) => {
+    const messages = this.state.messages
+    messages.push({
+      text: message,
+      member: this.state.member
+    })
+    this.setState({messages: messages})
+  }
+
 render(){
   return (
     <div className="App">
+      <div className="App-header">
+        <h1>Parlaonica</h1>
+      </div>
       <Messages
         messages={this.state.messages}
         currentMember={this.state.member}
       />
+      <Input onSendMessage={this.onSendMessage}/>
     </div>
   );
   }

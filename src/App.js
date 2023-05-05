@@ -50,6 +50,7 @@ room.on('data', (data, member) => {
   }
 
   onSendMessage = (message) => {
+    if (message.length===0) return; //quick fix za emtpy message
     this.drone.publish({
       room: "observable-room",
       message

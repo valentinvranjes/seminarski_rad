@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Messages from './components/Messages';
 import Input from './components/input';
+import Sidebar from './components/Sidebar';
 
 
 class App extends React.Component {
@@ -43,12 +44,19 @@ class App extends React.Component {
     this.setState({messages: messages})
   }
 
+toggleSidebar = () =>{
+  this.sidebar.ToggleSidebar();
+}
+
 render(){
   return (
     <div className="App">
       <div className="App-header">
+        <button className='sidebar-btn' onClick={this.toggleSidebar}>Sidebar</button>
         <h1>Parlaonica</h1>
+        <div></div> {/* prazan div služi ua flex pozicioniranje elemenata */}
       </div>
+      <Sidebar ref={(reference)=> this.sidebar = reference}/>
       <Messages
         messages={this.state.messages}
         currentMember={this.state.member}

@@ -9,8 +9,9 @@
     background-color: #262626;
     overflow: visible;
     width: 100%;
-    text-align: center;
     color: white;
+    display: flex;
+    justify-content: space-between;
   }
   
   .Messages-list {

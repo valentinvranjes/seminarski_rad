@@ -1,5 +1,6 @@
 import React from "react";
 import "./sidebar.css";
+import { Link } from "react-router-dom/dist";
 
 class Sidebar extends React.Component{
     constructor(props){
@@ -26,8 +27,8 @@ class Sidebar extends React.Component{
                 </div>
                 <div className="sd-body">
                     <ul>
-                        <li><a href="#" className="sd-link">Menue Item #1</a></li>
-                        <li><a href="#" className="sd-link">Menue Item #2</a></li>
+                        <li><Link to="/" className="sd-link">Chat</Link></li>
+                        <li><Link to="/about" className="sd-link">About</Link></li>
                     </ul>
                 </div>
             </div>

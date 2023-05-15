@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/seminarski_rad/static/css/main.264c99e7.css",
+    "main.js": "/seminarski_rad/static/js/main.57322aef.js",
+    "index.html": "/seminarski_rad/index.html",
+    "main.264c99e7.css.map": "/seminarski_rad/static/css/main.264c99e7.css.map",
+    "main.57322aef.js.map": "/seminarski_rad/static/js/main.57322aef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.264c99e7.css",
+    "static/js/main.57322aef.js"
+  ]
+}

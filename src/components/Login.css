@@ -1,16 +1,35 @@
 .login-form {
-    display: flex;
-    flex-direction: column;
-    background-color: lightgray;
-    border-radius: 20px;
-    margin-top: 2rem;
-    justify-content: center;
-    align-items: center;
-  }
-  .login-form > * {
-    margin-top: 2rem;
-  }
-  .login-btn {
-    margin-bottom: 2rem;
-    width: 6rem;
-  }
+  display: flex;
+  flex-direction: column;
+  background-color: #99e8fa;
+  border-radius: 0,3rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0492C2;
+}
+
+.login-form > * {
+  margin-top: 2rem;
+}
+
+.login-btn {
+  margin-bottom: 2rem;
+  width: 6rem;
+  display: inline-block;
+  color: #0492C2;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border: 1px solid #0492C2;
+}
+
+.login-btn:hover {
+  background: #1b4e85;
+  color: white;
+  border-color: transparent;
+}
+
+.login-form:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}

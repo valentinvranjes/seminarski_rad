@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&display=swap');
+
 .App {
     display: flex;
     flex-direction: column;
     height: 100vh;
   }
+
+  body {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #151E3D;
+    color: #1b4e85; 
+    background-image: url(./assets/bg-texture.png);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/seminarski_rad/static/css/main.ee738086.css",
-    "main.js": "/seminarski_rad/static/js/main.57322aef.js",
+    "main.css": "/seminarski_rad/static/css/main.6cc01d12.css",
+    "main.js": "/seminarski_rad/static/js/main.6270e611.js",
     "index.html": "/seminarski_rad/index.html",
-    "main.ee738086.css.map": "/seminarski_rad/static/css/main.ee738086.css.map",
-    "main.57322aef.js.map": "/seminarski_rad/static/js/main.57322aef.js.map"
+    "main.6cc01d12.css.map": "/seminarski_rad/static/css/main.6cc01d12.css.map",
+    "main.6270e611.js.map": "/seminarski_rad/static/js/main.6270e611.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee738086.css",
-    "static/js/main.57322aef.js"
+    "static/css/main.6cc01d12.css",
+    "static/js/main.6270e611.js"
   ]
 }
